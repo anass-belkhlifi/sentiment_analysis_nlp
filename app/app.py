@@ -234,19 +234,19 @@ with tab3:
     col1, col2 = st. columns(2)
     
     with col1:
-        st. info(f"""
-        **Model:** {metadata. get('model_name', 'N/A')}  
+        st.info(f"""
+        **Model:** {metadata.get('model_name', 'N/A')}  
         **Training Date:** {metadata.get('training_date', 'N/A')}  
-        **Training Samples:** {metadata.get('training_samples', 'N/A'):,}  
-        **Test Samples:** {metadata.get('test_samples', 'N/A'):,}
+        **Training Samples:** {metadata.get('training_samples', 0):,}  
+        **Test Samples:** {metadata.get('test_samples', 0):,}
         """)
     
     with col2:
         st.info(f"""
-        **Vocabulary Size:** {metadata.get('vocabulary_size', 'N/A'):,}  
-        **Max Features:** {metadata.get('max_features', 'N/A'):,}  
+        **Vocabulary Size:** {metadata.get('vocabulary_size', 0):,}  
+        **Max Features:** {metadata.get('max_features', 0):,}  
         **N-gram Range:** {metadata.get('ngram_range', 'N/A')}  
-        **Inference Time:** {metadata.get('inference_time_ms', 'N/A'):.2f} ms
+        **Inference Time:** {metadata.get('inference_time_ms', 0):.2f} ms
         """)
 
 # ============================================================================
@@ -271,7 +271,7 @@ with tab4:
     - **Backend:** Python, scikit-learn, NLTK
     - **Frontend:** Streamlit, Plotly
     - **ML:** TF-IDF + Logistic Regression
-    - **Accuracy:** 85%+
+    - **Accuracy:** 75%+
     
     ### 👨‍💻 Author
     

@@ -115,7 +115,7 @@ def render_sentiment_result(sentiment: str, confidence: float, inference_time: f
         </div>
     """, unsafe_allow_html=True)
     
-    st.info(f"⚡ Processing time: {inference_time:. 2f} ms")
+    st.info(f"⚡ Processing time: {inference_time:.2f} ms")
 
 
 def render_confidence_scores(confidence_dict: Dict[str, float], show_chart: bool = True):
@@ -287,7 +287,7 @@ def render_footer():
     st.markdown(f"""
         <div class="footer">
             <p><strong>Sentiment Analysis System</strong> | Built with Streamlit & scikit-learn</p>
-            <p>© 2024 {AUTHOR['name']} | {AUTHOR['project']}</p>
+            <p>© 2025 {AUTHOR['name']} | {AUTHOR['project']}</p>
             <p>
                 <a href="{AUTHOR['github']}" target="_blank">GitHub</a> • 
                 <a href="mailto:{AUTHOR['email']}">Contact</a>

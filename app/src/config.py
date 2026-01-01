@@ -9,15 +9,19 @@ ASSETS_DIR = BASE_DIR / 'assets'
 #MODEL FILES
 TFIDF_VECTORIZER_PATH = MODELS_DIR / 'tfidf_vectorizer.pkl'
 SENTIMENT_MODEL_PATH = MODELS_DIR / 'sentiment_model.pkl'
-METADATA_PATH = MODELS_DIR / 'model_metadata.json'
+METADATA_PATH = MODELS_DIR / 'model_info.json'
 
-#app setings
+# Aliases for backward compatibility
+MODEL_PATH = SENTIMENT_MODEL_PATH
+VECTORIZER_PATH = TFIDF_VECTORIZER_PATH
+
+# app settings
 APP_TITLE = "Sentiment Analysis Web Application"
 APP_ICON = ASSETS_DIR / 'app_icon.png'
 PAGE_LAYOUT = 'wide'
 INITIAL_SIDEBAR_STATE = 'expanded'
 
-#MODEL SETTINGS
+# MODEL SETTINGS
 MIN_TEXT_LENGTH = 3 #Longueur minimale du texte accepté.
 MAX_TEXT_LENGTH = 1000
 HISTORY_LIMIT = 10 #Nombre maximum d’analyses conservées en historique
