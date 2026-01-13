@@ -1,0 +1,16 @@
+# Core
+streamlit==1.29.0
+pandas==2.0.3
+numpy==1.24.3
+
+# ML
+scikit-learn==1.3.0
+
+# NLP
+nltk==3.8.1
+
+# Visualization
+plotly==5.18.0
+
+# Utilities
+python-dateutil==2.8.2
