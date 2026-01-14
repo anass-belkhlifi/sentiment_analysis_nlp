@@ -1,0 +1,16 @@
+# Core
+streamlit
+pandas
+numpy
+
+# ML
+scikit-learn
+
+# NLP
+nltk
+
+# Visualization
+plotly
+
+# Utilities
+python-dateutil
