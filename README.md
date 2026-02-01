@@ -2,8 +2,7 @@
 
 This repository provides a sentiment analysis tool with an interactive web interface built using Streamlit. Easily analyze the sentiment (positive, negative, or neutral) of any text directly from your browser.
 
-https://github.com/anass-belkhlifi/sentiment_analysis_nlp/issues/1#issue-3881904306
-
+https://github.com/user-attachments/assets/b5fbbbb4-884b-41d7-a6b1-f2f297fbbcd6
 ## Features
 
 - **Intuitive Streamlit interface** for easy sentiment analysis
